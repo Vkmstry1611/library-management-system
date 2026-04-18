@@ -1,0 +1,2 @@
+Tested project structure and templates.
+Verified basic setup is working.
