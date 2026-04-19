@@ -1,3 +1,5 @@
+# Initial routes setup for navigation and integration
+
 # internal imports
 from library.forms import book_form, member_form
 from library import app, db
