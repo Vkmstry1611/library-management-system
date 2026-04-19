@@ -1,2 +1,3 @@
 Tested project structure and templates.
 Verified basic setup is working.
+Final validation for support files
