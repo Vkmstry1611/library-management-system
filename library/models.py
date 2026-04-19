@@ -1,3 +1,5 @@
+# Initial database models setup for library system
+
 from library import db
 
 
