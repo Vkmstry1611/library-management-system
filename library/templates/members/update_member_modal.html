@@ -8,7 +8,7 @@
 
             <div class="modal-body">
 
-                <form action='./update-member/{{member.id}}' method="POST">
+                <form action='/update-member/{{member.id}}' method="POST">
                     {{ member_form.hidden_tag() }}
                     {{ member_form.name.label() }}
                     {{ member_form.name(class="form-control", placeholder="Title",value= member.name) }}

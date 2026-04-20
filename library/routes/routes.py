@@ -19,8 +19,8 @@ def get_borrow_context():
 
 
 # Home
-@app.route('/', methods=['GET', 'POST'])
-@app.route('/home', endpoint='home_page')
+@app.route('/', methods=['GET', 'POST'], endpoint='home_page')
+@app.route('/home')
 def home_page():
     ctx = get_borrow_context()
     return render_template('home.html',
